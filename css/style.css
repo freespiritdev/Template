@@ -1,28 +1,28 @@
-
 html,
 body {
-
   margin:0;
   padding:0;
   height:100%;
-
+  font: 14px Latos, Helvetica Neue, Arial;
+  text-transform: uppercase;
 }
 
-  .img_left{
+.img_left {
   background: url(arrow.png) no-repeat;
   width:50px; height: 50px;
   webkit-transform:
   rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-    margin-top: 200px;
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  margin-top: 130px;
 }
 .img_right{
   width:50px; height: 50px;
-  margin-top: 200px;
+  margin-top: 130px;
   float: right;
+  margin-right: 40px;
 }
 
 img {
@@ -46,9 +46,8 @@ ul {
 #master {
   width: 980px;
   margin: 0 auto;
+  line-height: 2;
 }
-
-
 
 #header {
   background-color: #E8E8E8;
@@ -65,7 +64,7 @@ ul {
 
 .bag {
   text-align: right;
-  margin-top: 0em;
+  margin-top: 1;
 }
 
 .title {
@@ -80,12 +79,33 @@ ul {
   height: 50px;
   width: 980px;
 }
+#grayspace {
+  height: 200px;
+  width: 100%;
+  background-color: #E8E8E8;;
+  clear: both;
+  top: 3;
+  margin-bottom: 20px;
+}
+
+#like {
+  text-transform: uppercase;
+  background-color: #E8E8E8;
+  height: 35px;
+  width: 900px;
+  line-height: 3;
+  margin: 35px;
+  margin-bottom: 40px;
+  clear: both;
+  text-align: center;
+}
 
 #promo {
   background-color: #e44d26;
   height: 30px;
-  width: 960px;
+  width: 100%;
   margin-bottom: 20px;
+  line-height: 2;
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -93,46 +113,25 @@ ul {
 #slide {
   background-color: #E8E8E8;
   height: 300px;
-  width: 850px;
-  margin-top: 0px;
+  width: 100%;
+  margin-top: 2px;
   margin-bottom: 0px;
   margin-right: auto;
   margin-left: auto;
 }
-.content {
-  background-color: #E8E8E8;
-  height: 200px;
-  width: 250px;
-  float: left;
-  margin-left: 20px;
-  text-align: center;
-}
-.content p {
-  background-color: #fff;
-  height: 200px;
-  width: 300px;
-  float: left;
-  margin-left: 20px;
-  top: 60;
-}
-.content {
-  background-color: #E8E8E8;
-  height: 200px;
-  width: 300px;
-}
-.content {
-  background-color: #E8E8E8;
-  height: 200px;
-  width: 300px;
-}
 
 .row {
   float: left;
-  margin-left: 10px;  
+  margin-left: 10px; 
+  text-transform: capitalize;
 }
 
 h3 {
   text-align: center;
+}
+
+h5 {
+  margin-right: 0px;
 }
 
 .table {
@@ -157,6 +156,8 @@ h3 {
   text-align: center;
   height: 300px;
   width: 300px;
+  border: none;
+  text-transform: none;
 }
 
 .section {
@@ -166,8 +167,12 @@ h3 {
 .social {
   text-align: center;
   float: right;
+  text-transform: capitalize;
 }
 
+.form-control{
+  font-size: .9em
+}
 #footer {
   background-color: #cc9;
   width: 960px;
@@ -176,33 +181,30 @@ h3 {
   margin-bottom: 20px;
 }
 
-#like {
-  text-transform: uppercase;
-  background-color: #E8E8E8;
-  height: 0px;
-  width: 960px;
-  bottom: 4;
-  line-height: 0;
-}
+.input-group {
+  font-size: .9em
+  top: 1;
 
-.panel-footer {
-  background-color: #fff;
 }
 
 div .footer-container div .footer-left {        
     display: inline-block;     
     width:23%;     
     height:21px; 
-    font-size: .7em;
+    font-size: .8em;
+    margin: 0px;
     text-align: center;
+    text-transform: capitalize;
     clear: both;
 } 
 div .footer-container div .footer-right {     
     display: inline-block;     
     width:23%;     
     height:21px; 
-    font-size: .7em;
+    font-size: .8em;
     text-align: center;
+    margin: 2px;
+    text-transform: capitalize;
     clear: both;
 } 
 div .footer-container div .footer-center {      
@@ -210,8 +212,10 @@ div .footer-container div .footer-center {
     margin:0 auto;     
     height:21px;     
     width:23%; 
-    font-size: .7em;
+    margin: 0px;
+    font-size: .9em;
     text-align: center;
+    text-transform: capitalize;
     clear: both;
 }​
 
@@ -219,3 +223,4 @@ div .footer-container div .footer-center {
   color: #000000;
   background-color: #transparent;
 }
+
